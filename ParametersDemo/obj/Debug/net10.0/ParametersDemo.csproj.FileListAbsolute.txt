@@ -1,0 +1,15 @@
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.AssemblyInfoInputs.cache
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.AssemblyInfo.cs
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.csproj.CoreCompileInputs.cache
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.sourcelink.json
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/bin/Debug/net10.0/ParametersDemo
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/bin/Debug/net10.0/ParametersDemo.deps.json
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/bin/Debug/net10.0/ParametersDemo.runtimeconfig.json
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/bin/Debug/net10.0/ParametersDemo.dll
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/bin/Debug/net10.0/ParametersDemo.pdb
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.dll
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/refint/ParametersDemo.dll
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.pdb
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ParametersDemo.genruntimeconfig.cache
+/home/eric/data/dotnet/cnm2210_public/ParametersDemo/obj/Debug/net10.0/ref/ParametersDemo.dll

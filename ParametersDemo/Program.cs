@@ -1,5 +1,6 @@
 ﻿static void Test(int aValue)
 {
+    Console.WriteLine("Initial aValue is {0}", aValue);
     aValue = 111;
     Console.WriteLine("In Test aValue is {0}", aValue);
 }
@@ -33,6 +34,12 @@ static void TestMultiple(int aValue, int bValue = 222, int cValue = 333)
         "Values " +
         "{0}, {1}, {2}", aValue,bValue,cValue);
 }
+
+int[,] multiDimensionalArray2 = { { 1, 2, 3 }, { 4, 5, 6 } }; 
+int my_val = multiDimensionalArray2[1,1];
+
+int[] fib = {0,1,1,2,3,5};
+
 
 //byval
 Console.WriteLine("Pass by value test");
@@ -71,3 +78,14 @@ Console.WriteLine("test overload");
 MyClass cls = new MyClass();
 Console.WriteLine(cls.TestOverload("Overload!"));
 Console.WriteLine(cls.TestOverload(1));
+
+Train train1 = new Train();
+train1.TrainNumber = "Train 1";
+train1.MoveForeward();
+train1.Stop();
+
+Train train2 = new Train();
+train2.TrainNumber = "Train 2";
+train2.MoveForeward();
+train2.Stop();
+

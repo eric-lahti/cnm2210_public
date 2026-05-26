@@ -1,4 +1,6 @@
-﻿static void Test(int aValue)
+﻿using System.Net;
+
+static void Test(int aValue)
 {
     Console.WriteLine("Initial aValue is {0}", aValue);
     aValue = 111;
@@ -34,12 +36,6 @@ static void TestMultiple(int aValue, int bValue = 222, int cValue = 333)
         "Values " +
         "{0}, {1}, {2}", aValue,bValue,cValue);
 }
-
-int[,] multiDimensionalArray2 = { { 1, 2, 3 }, { 4, 5, 6 } }; 
-int my_val = multiDimensionalArray2[1,1];
-
-int[] fib = {0,1,1,2,3,5};
-
 
 //byval
 Console.WriteLine("Pass by value test");
@@ -89,3 +85,9 @@ train2.TrainNumber = "Train 2";
 train2.MoveForeward();
 train2.Stop();
 
+static void Main(string[] args)
+{
+    string val = args[0];
+}
+
+ParametersDemo arg1="this", arg2="that"...

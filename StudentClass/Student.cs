@@ -9,6 +9,9 @@ class Student
     private string studentFirstName;
     private string studentLastName;
     private string studentNumber;
+    public string FavoriteBook;
+
+    public string myotherFirstName{get;set;}
 
     public string firstName
     {
@@ -25,11 +28,16 @@ class Student
     public string lastName
     {
         get{return "Von" + studentLastName;}
-        set{studentLastName = value;}
+        set{studentLastName = value + " The one and only";}
     }
 
     public string major
     {
+        set
+        {
+            Console.WriteLine("Looking up major " + value);
+
+        }
         get {return studentMajor; }
     }
 
@@ -65,5 +73,17 @@ class Student
     {
         studentMajor = major;
         studentNumber = studentID;
+    }
+
+    public void DropClass()
+    {
+        string DropDate = DateTime.Now.ToString();
+        DoDropClass(DropDate, studentNumber);
+        Console.Write(studentFirstName + " " + studentLastName + " Class dropped");
+    }
+
+    void DoDropClass(string dropDate, string studentNumber)
+    {
+        //Does actual class dropping
     }
 }

@@ -84,10 +84,3 @@ Train train2 = new Train();
 train2.TrainNumber = "Train 2";
 train2.MoveForeward();
 train2.Stop();
-
-static void Main(string[] args)
-{
-    string val = args[0];
-}
-
-ParametersDemo arg1="this", arg2="that"...

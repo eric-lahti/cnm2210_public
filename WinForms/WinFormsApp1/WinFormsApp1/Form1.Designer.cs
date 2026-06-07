@@ -35,6 +35,14 @@
             lblFirstName = new Label();
             lblLastName = new Label();
             btnShow = new Button();
+            gbMajor = new GroupBox();
+            lblMajor = new Label();
+            rbSoftware = new RadioButton();
+            rbUBW = new RadioButton();
+            rbSpeechComm = new RadioButton();
+            rbEnrolled = new RadioButton();
+            rbNotEnrolled = new RadioButton();
+            gbMajor.SuspendLayout();
             SuspendLayout();
             // 
             // lblStudentID
@@ -87,7 +95,7 @@
             // 
             // btnShow
             // 
-            btnShow.Location = new Point(388, 126);
+            btnShow.Location = new Point(388, 300);
             btnShow.Name = "btnShow";
             btnShow.Size = new Size(112, 34);
             btnShow.TabIndex = 6;
@@ -95,11 +103,90 @@
             btnShow.UseVisualStyleBackColor = true;
             btnShow.Click += btnShow_Click;
             // 
+            // gbMajor
+            // 
+            gbMajor.Controls.Add(rbSpeechComm);
+            gbMajor.Controls.Add(rbUBW);
+            gbMajor.Controls.Add(rbSoftware);
+            gbMajor.Location = new Point(159, 125);
+            gbMajor.Name = "gbMajor";
+            gbMajor.Size = new Size(341, 147);
+            gbMajor.TabIndex = 7;
+            gbMajor.TabStop = false;
+            // 
+            // lblMajor
+            // 
+            lblMajor.AutoSize = true;
+            lblMajor.Location = new Point(12, 125);
+            lblMajor.Name = "lblMajor";
+            lblMajor.Size = new Size(109, 25);
+            lblMajor.TabIndex = 8;
+            lblMajor.Text = "Select Major";
+            // 
+            // rbSoftware
+            // 
+            rbSoftware.AutoSize = true;
+            rbSoftware.Location = new Point(14, 24);
+            rbSoftware.Name = "rbSoftware";
+            rbSoftware.Size = new Size(219, 29);
+            rbSoftware.TabIndex = 0;
+            rbSoftware.TabStop = true;
+            rbSoftware.Text = "Software Development";
+            rbSoftware.UseVisualStyleBackColor = true;
+            // 
+            // rbUBW
+            // 
+            rbUBW.AutoSize = true;
+            rbUBW.Location = new Point(14, 59);
+            rbUBW.Name = "rbUBW";
+            rbUBW.Size = new Size(257, 29);
+            rbUBW.TabIndex = 1;
+            rbUBW.TabStop = true;
+            rbUBW.Text = "Underwater Basket Weaving";
+            rbUBW.UseVisualStyleBackColor = true;
+            // 
+            // rbSpeechComm
+            // 
+            rbSpeechComm.AutoSize = true;
+            rbSpeechComm.Location = new Point(14, 94);
+            rbSpeechComm.Name = "rbSpeechComm";
+            rbSpeechComm.Size = new Size(225, 29);
+            rbSpeechComm.TabIndex = 2;
+            rbSpeechComm.TabStop = true;
+            rbSpeechComm.Text = "Speech Communication";
+            rbSpeechComm.UseVisualStyleBackColor = true;
+            // 
+            // rbEnrolled
+            // 
+            rbEnrolled.AutoSize = true;
+            rbEnrolled.Location = new Point(601, 148);
+            rbEnrolled.Name = "rbEnrolled";
+            rbEnrolled.Size = new Size(101, 29);
+            rbEnrolled.TabIndex = 9;
+            rbEnrolled.TabStop = true;
+            rbEnrolled.Text = "Enrolled";
+            rbEnrolled.UseVisualStyleBackColor = true;
+            // 
+            // rbNotEnrolled
+            // 
+            rbNotEnrolled.AutoSize = true;
+            rbNotEnrolled.Location = new Point(601, 184);
+            rbNotEnrolled.Name = "rbNotEnrolled";
+            rbNotEnrolled.Size = new Size(136, 29);
+            rbNotEnrolled.TabIndex = 10;
+            rbNotEnrolled.TabStop = true;
+            rbNotEnrolled.Text = "Not Enrolled";
+            rbNotEnrolled.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(888, 450);
+            Controls.Add(rbNotEnrolled);
+            Controls.Add(rbEnrolled);
+            Controls.Add(lblMajor);
+            Controls.Add(gbMajor);
             Controls.Add(btnShow);
             Controls.Add(lblLastName);
             Controls.Add(lblFirstName);
@@ -109,6 +196,8 @@
             Controls.Add(lblStudentID);
             Name = "Form1";
             Text = "WinForms Demo!";
+            gbMajor.ResumeLayout(false);
+            gbMajor.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -122,5 +211,12 @@
         private Label lblFirstName;
         private Label lblLastName;
         private Button btnShow;
+        private GroupBox gbMajor;
+        private Label lblMajor;
+        private RadioButton rbSpeechComm;
+        private RadioButton rbUBW;
+        private RadioButton rbSoftware;
+        private RadioButton rbEnrolled;
+        private RadioButton rbNotEnrolled;
     }
 }
